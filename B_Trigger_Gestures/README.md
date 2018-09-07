@@ -61,7 +61,9 @@ Rigidbody bulletClone = (Rigidbody)Instantiate(bullet, Object.transform.position
     }
 ```
 Now that we have defined our function, we can call the fire function when the release or grab gesture is called. We’ll trigger in both cases.
+```
 Fire();
+```
 *	Save the script and back in unity…
 *	We need to create a sphere game object. 
 *	Drag it as a prefab.
