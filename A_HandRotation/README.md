@@ -50,6 +50,14 @@ So now that you know the basics, you can head over to the unity asset store and 
 Links to this prefab can be found in the description below:
 Okay that is it from me, thank you for watching and see you in the next lectures
 
+*	FREE AR Business Card Crash Course:
+http://bit.ly/FREEARBusinessCardCrashCourse
+
+*	Enroll Here in the Full ARCore MasterClass Course: 
+http://bit.ly/ARCoreCourse-Teachable
+
+*	AR Courses on Udemy:  http://bit.ly/UdemyARCourses
+
 
 
 
