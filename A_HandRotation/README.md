@@ -5,7 +5,6 @@ Hey guys and welcome back. In this tutorial I’ll be showing you how to use the
 It’s really quite simple to do this since manomotion does all the hard work of hand gesture recognition and analysis to obtain the hand rotation along an axis relative to the camera image plane.
 So lets get into it
 
-
 ## What will we need?
 So, we’ll require the base-project which you can get from my github repo, https://github.com/reigngt09/AR_HandGestures/edit/master/A_HandRotation.
 
