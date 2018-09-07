@@ -85,7 +85,7 @@ http://bit.ly/UnitySpell
 Okay that is it from me, thank you for watching and see you in the next lectures
 
 *	FREE AR Business Card Crash Course:
-http://www.arduinostartups.com/
+http://bit.ly/FREEARBusinessCardCrashCourse
 
 *	Enroll Here in the Full ARCore MasterClass Course: 
 http://bit.ly/ARCoreCourse-Teachable
