@@ -33,7 +33,7 @@ public class ManoVisualization : MonoBehaviour
     GameObject manomotionGenericLayer, layering_object;
 
 
-    public Text PositionText;
+    //public Text PositionText;
 
     private Transform[] bounding_box;
     private Transform[] palm;
@@ -480,9 +480,9 @@ public class ManoVisualization : MonoBehaviour
             Vector3 palm_cent = tracking_info.palm_center;
             float depth = tracking_info.relative_depth;
             ManoUtils.Instance.CalculateNewPosition(palm_cent, depth);
-            PositionText.text = (palm_cent.ToString());  //RK
-            layering_object.gameObject.transform.position = (3.0f*(palm_cent) layering_object.gameObject.transform.position = (3.0f*(palm_cent) + new Vector3(-1.5f,0.0f,-9.0f));
-            PositionText.text = (layering_object.transform.position.ToString());  //RK
+            //PositionText.text = (palm_cent.ToString());  //RK
+            layering_object.gameObject.transform.position = (3.0f*(palm_cent) + new Vector3(-1.5f,0.0f,-9.0f)); //RK
+            //PositionText.text = (layering_object.transform.position.ToString());  //RK
         }
     }
 
