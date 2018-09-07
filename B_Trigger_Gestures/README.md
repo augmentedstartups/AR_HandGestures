@@ -24,12 +24,15 @@ So this scene is similar to our last Rotation project, except that RotationManag
 So what we are going to do now is change the color of this cube whenever we trigger a grab or release gesture.
 So lets go over to Gizmo Manager and open up this script in visual studio or monodevelop.
 Lets create first a 
-
+```
 public GameObject Object;
+```
 
 This Object will be filled by our cube game object.
 Now we need to look for the DisplayTriggerGesture method and within the function we want to locate the grab and release cases. Under grab we type
+```
 Object.GetComponent<Renderer>().material.color = Color.red;
+```
 Lets copy and paste this for the release and make the color blue. 
 Before we run the app to test if this works, we need go to main camera and drag and drop this cube into the Object field under Gizmo Manager.
 We can now build and run the app, skip ahead to later in the video if you don’t know how to build the app, otherwise let’s continue.
@@ -42,13 +45,13 @@ So, we already have the cube incorporated into the script, so all we have to do 
 layering_object.gameObject.transform.position = (3.0f * (palm_cent) + new Vector3(-1.5f, 0.0f, -9.0f)); 
 This basically transfers the positional data of the palm center of the hand to cube. We also made some calibrations to ensure that the cube follows the hand more precisely. 
 Now back in Unity, we can drag and drop our cube prefab into the Layering object field under Mano Visualization. Also, let’s resize our cube to 0.1 along all axes’ and then we can rebuild our app to see if everything works so far.
-DEMO 2
+
 ## Shooting Spheres
 So, in this part we are going to create the projectile that gets fired when we trigger a grab or release gesture with our hands. Back in GizmoManager, we can add in the following variables:
     public float bulletSpeed = 10; 
     public Rigidbody bullet;  
 And then we add in the function that will accelerate the projectile using the cubes position as the starting position,
-
+```
     void Fire() //RK
     {
 
@@ -56,6 +59,7 @@ Rigidbody bulletClone = (Rigidbody)Instantiate(bullet, Object.transform.position
         bulletClone.velocity = bullet.transform.forward * bulletSpeed;
 
     }
+```
 Now that we have defined our function, we can call the fire function when the release or grab gesture is called. We’ll trigger in both cases.
 Fire();
 *	Save the script and back in unity…
@@ -73,8 +77,6 @@ Fire();
 ## Enhancing the project
 So now that you know the basics, you can head over to the unity asset store and add in any spell or particle effects prefab that you want whether it may be free or paid. I recommend using this one called Magic Spell by RDR. It will give your kai blasts that extra Oomph for your app.
 
-
-Links to this prefab can be found in the description below:
 Okay that is it from me, thank you for watching and see you in the next lectures
 
 
