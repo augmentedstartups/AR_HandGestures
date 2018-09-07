@@ -1,15 +1,14 @@
 # Hand Rotation Tutorial in Unity
 
-Rotation
-
-Introduction
+## Introduction
 Hey guys and welcome back. In this tutorial I’ll be showing you how to use the force to rotate 3d objects by channeling chi from your hands. Haha So in other words the 3d game object rotates based on the rotation value detected using Manomotion SDK.
 It’s really quite simple to do this since manomotion does all the hard work of hand gesture recognition and analysis to obtain the hand rotation along an axis relative to the camera image plane.
 So lets get into it
 
 
 ## What will we need?
-So, we’ll require the base-project which you can get from my github repo, www.github.com/reigngt09/Handgestures/A_Handrotate.
+So, we’ll require the base-project which you can get from my github repo, https://github.com/reigngt09/AR_HandGestures/edit/master/A_HandRotation.
+
 You will also need to have the latest Manomotion SDK to import any package that has not been exported from the base-project.
 The project
 So, start a new Unity Project, Let’s call it Hand_Rotation, Import those two files, first the base project and then Manomotion SDK. Also don’t forget to input your Manomotion License key under Manomotion Manager
@@ -40,16 +39,17 @@ In a nutshell, what is going on here is that we want to rotate our cube or 3d ga
 Lastly before we build the app, we save everything and then under Rotation Manager, Rotation script, we drag and drop our cube prefab under object.
 
 ## Building the App
-•	Let’s click File>> Build Settings. Change our source to Android, Add open scene, set to internal
-•	Don’t forget to set players settings. Disable multithreaded rendering, Change our package ID as well as our Android OS package to Nougat 7.0. And finally ARCore checked. This should be second nature by now.
-•	DEMO
-•	So now following the process you can see that we are able to rotate the cube. We can add a multiplier to the code to make the cube spin faster with respect to our hand, if we want to.
+*	Let’s click File>> Build Settings. Change our source to Android, Add open scene, set to internal
+*	Don’t forget to set players settings. Disable multithreaded rendering, Change our package ID as well as our Android OS package to Nougat 7.0. And finally ARCore checked. This should be second nature by now.
+*	DEMO
+*	So now following the process you can see that we are able to rotate the cube. We can add a multiplier to the code to make the cube spin faster with respect to our hand, if we want to.
 
 ## Enhancing the project
 So now that you know the basics, you can head over to the unity asset store and add in any prefab that you want whether it may be free or paid. I bought this back Muscles Animated Asset. And you can see the results are amazing once we are able to rotate it with our hands. To do this all you have to do is perform the same process as the cube or you can make the 3d asset a child of the cube and just disable the mesh render for the cube.
+
 Links to this prefab can be found in the description below:
 Okay that is it from me, thank you for watching and see you in the next lectures
-Video
+
 
 
 
