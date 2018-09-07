@@ -481,7 +481,7 @@ public class ManoVisualization : MonoBehaviour
             float depth = tracking_info.relative_depth;
             ManoUtils.Instance.CalculateNewPosition(palm_cent, depth);
             PositionText.text = (palm_cent.ToString());  //RK
-            layering_object.gameObject.transform.position = (3.0f*(palm_cent) + new Vector3(0.0f,0.0f,-9.0f) - new Vector3(1.5f, 0.0f, 0.0f));
+            layering_object.gameObject.transform.position = (3.0f*(palm_cent) layering_object.gameObject.transform.position = (3.0f*(palm_cent) + new Vector3(-1.5f,0.0f,-9.0f));
             PositionText.text = (layering_object.transform.position.ToString());  //RK
         }
     }
