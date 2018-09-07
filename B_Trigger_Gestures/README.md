@@ -79,6 +79,9 @@ Fire();
 ## Enhancing the project
 So now that you know the basics, you can head over to the unity asset store and add in any spell or particle effects prefab that you want whether it may be free or paid. I recommend using this one called Magic Spell by RDR. It will give your kai blasts that extra Oomph for your app.
 
+You can download the Asset from here:
+http://bit.ly/UnitySpell
+
 Okay that is it from me, thank you for watching and see you in the next lectures
 
 
